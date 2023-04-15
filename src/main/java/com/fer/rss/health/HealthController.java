@@ -1,6 +1,7 @@
-package com.fer.rss.controller;
+package com.fer.rss.health;
 
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,4 +14,5 @@ public class HealthController {
     public ResponseEntity<String> getHealthState(){
         return ResponseEntity.ok("OK");
     }
+
 }
