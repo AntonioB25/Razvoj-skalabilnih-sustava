@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 @OpenAPIDefinition
 @Configuration
 public class SpringdocConfig {
-    public OpenAPI baseOpenApi(){
+    public OpenAPI baseOpenApi() {
         return new OpenAPI()
                 .info(new Info()
                         .title("Spring Doc")
